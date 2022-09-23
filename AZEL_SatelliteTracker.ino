@@ -10,12 +10,12 @@
 //connect GRD to power source (9v battery - term)
 
 
-int stp = 12;  //connect pin 13 to step
-int dir = 13;  // connect pin 12 to dir
-int stp2 = 10;  //connect pin 13 to step
-int dir2 = 11;  // connect pin 12 to dir
+int stp = 12;  //connect pin  to step
+int dir = 13;  // connect pin  to dir
+int stp2 = 10;  //connect pin  to step
+int dir2 = 11;  // connect pin  to dir
 
-bool DEBUG = true;
+bool DEBUG = false;
 
 int iElDelay = 750 ;
 int iAzDelay = 1000 ;
