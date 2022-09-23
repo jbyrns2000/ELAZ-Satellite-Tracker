@@ -1,14 +1,8 @@
 
 
-//simple A4988 connection
-//jumper reset and sleep together
-//connect  VDD to Arduino 3.3v or 5v
-//connect  GND to Arduino GND (GND near VDD)
-//connect  1A and 1B to stepper coil 1
-//connect 2A and 2B to stepper coil 2
-//connect VMOT to power source (9v battery + term)
-//connect GRD to power source (9v battery - term)
-
+// Basic ELAZ code. 
+// attempted to emulate a Yaesu GS232 rotator.
+// Most commands are not implemented. Comment out if you need more memory.
 
 int stp = 12;  //connect pin  to step
 int dir = 13;  // connect pin  to dir
